@@ -32,7 +32,7 @@ Playlist Studio is a complete Windows IPTV workspace for managing, editing, test
 
 ## 📥 Playlist Studio 5.0
 
-**[⬇️ Download Portable Application](https://github.com/saeidrahmanbd/BDIX-IPTV/releases/download/v5.0.0/Playlist-Studio-5.0.Portable.exe)** · **[📦 Download Windows Build Kit](https://github.com/saeidrahmanbd/BDIX-IPTV/releases/download/v5.0.0/Playlist-Studio-5.0-Windows-Build-Kit-Final.zip)** · **[📄 View v5.0.0 Release](https://github.com/saeidrahmanbd/BDIX-IPTV/releases/tag/v5.0.0)**
+**[⬇️ Download Portable Application](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0.Portable.exe)** · **[📦 Download Windows Build Kit](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0-Windows-Build-Kit-Final.zip)** · **[📄 View v5.0.0 Release](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0)**
 
 ### 🖼️ Program Glimpse
 

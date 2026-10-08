@@ -1,70 +1,85 @@
-# 📺 Playlist Studio
+# 🎬 Playlist Studio v5.0
 
 **Windows IPTV Playlist Manager, Editor & Player**
 
-Playlist Studio is a complete Windows IPTV workspace for managing, editing, testing and playing IPTV playlists and services.
+Playlist Studio 5.0 is a complete Windows IPTV workspace for managing, organizing, editing, testing, and playing IPTV playlists and services from a single application.
 
-### 🔌 Supported IPTV Sources
-
-| Source | Support |
-|---|---|
-| M3U / M3U8 | ✅ |
-| Xtream Codes | ✅ |
-| Stalker Portal / MAC | ✅ |
-| EPG | ✅ |
-| Built-in Playback | ✅ |
-
-### ✨ Key Features
-
-- 📋 IPTV playlist editing and organization
-- 🏷️ Channel and category management
-- 🖼️ Channel logo and metadata management
-- 🔗 Stream URL management
-- ▶️ Built-in IPTV playback
-- 🔎 Stream scanning and status checking
-- 📡 EPG support
-- 🔁 Duplicate channel and stream detection
-- 🖱️ Multi-channel and multi-category selection
-- 💾 Save / Save As
-- 🎨 Multiple interface themes
-- 🖥️ Portable Windows application
-- 🔗 GitHub integration
-
-## 📥 Playlist Studio 5.0
-
-**[⬇️ Download Portable Application](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0.Portable.exe)** · **[📦 Download Windows Build Kit](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0-Windows-Build-Kit-Final.zip)** · **[📄 View v5.0.0 Release](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0)**
-
-### 🖼️ Program Glimpse
+## 🖥️ Program Glimpse
 
 ![Playlist Studio 5.0](https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/assets/Playlist%20Studio%205.0.png)
 
-## 📚 Documentation
+## ✨ Key Features
 
-- **[Documentation](docs/README.md)**
-- **[Playlist Studio 5.0 Guide](docs/PLAYLIST-STUDIO-5.0.md)**
-- **[Download Center](docs/DOWNLOADS.md)**
-- **[Changelog](docs/CHANGELOG.md)**
+- M3U / M3U8 playlist management
+- Channel and category organization
+- Channel information, logo, EPG and stream URL editing
+- Multi-channel and multi-category selection
+- Duplicate channel and stream detection
+- Built-in video playback
+- Stream scanning and status checking
+- Xtream Codes support
+- MAC / Stalker Portal support
+- Multiple interface themes
+- Import playlists from files or URLs
+- Save / Save As functionality
 
-## 🛠️ Build from Windows Build Kit
+## ▶️ Playback & Testing
 
-1. Download the Build Kit.
-2. Extract the ZIP file.
-3. Open the extracted folder.
-4. Run **BUILD-Windows.cmd**.
-5. Wait for the build to finish.
-6. The generated application is available in the main folder and **dist**.
-7. Run **Playlist-Studio-5.0.exe**.
+Play and test IPTV streams directly inside Playlist Studio with built-in playback controls, fullscreen support, volume control, and stream status handling.
 
-See **Readme.txt** inside the Build Kit for detailed instructions.
+The scanning tools can help identify **Dead, Review, and Unscanned** channels.
+
+## ☁️ Xtream Codes & MAC / Stalker
+
+Playlist Studio supports **Xtream Codes** and **MAC / Stalker Portal** connections for compatible IPTV services.
+
+## 💾 Portable Windows Application
+
+The application is **portable** and requires no traditional installation.
+
+**[⬇️ Download Playlist Studio 5.0 Portable](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0.Portable.exe)**
+
+Simply download the EXE and run it on a supported Windows system.
+
+## 🛠️ Windows Build Kit
+
+A Windows Build Kit is included for users who want to rebuild the application.
+
+### Build Instructions
+
+1. Download `Playlist-Studio-5.0-Windows-Build-Kit-Final.zip`
+2. Extract the ZIP file
+3. Open the extracted folder
+4. Run **`BUILD-Windows.cmd`**
+5. Wait for the build process to finish
+6. The generated application will be available in the main folder and `dist` folder
+7. Run **`Playlist-Studio-5.0.exe`**
+
+See **`Readme.txt`** inside the Build Kit for detailed instructions.
+
+## 💻 System
+
+| Item | Details |
+|---|---|
+| **Platform** | Windows |
+| **Architecture** | x64 |
+| **Edition** | Portable |
+| **Playlist Formats** | M3U / M3U8 |
+| **Installation** | Not required |
+| **Playback** | Built-in |
+
+## 📦 Release Files
+
+- **`Playlist-Studio-5.0.Portable.exe`** — Portable Windows application
+- **`Playlist-Studio-5.0-Windows-Build-Kit-Final.zip`** — Windows Build Kit
+
+---
+
 
 ## 🔗 Related Project
 
-**[BDIX-IPTV](https://github.com/saeidrahmanbd/BDIX-IPTV)** is the associated IPTV playlist project for Playlist Studio, providing the **BDIX-Playlist.m3u** and **IPTV-Playlist.m3u** playlists used with the software.
+[BDIX-IPTV](https://github.com/saeidrahmanbd/BDIX-IPTV) is the associated IPTV playlist project for Playlist Studio, providing the `BDIX-Playlist.m3u` and `IPTV-Playlist.m3u` playlists used with the software.
 
 ## ⚠️ Usage
 
 Playlist Studio is intended for IPTV services and playlists that you are authorized to access and use.
-
----
-
-**Playlist Studio · Windows IPTV Workspace**

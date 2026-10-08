@@ -22,6 +22,7 @@ Playlist Studio 5.0 is a complete Windows IPTV workspace for managing, organizin
 - Multiple interface themes
 - Import playlists from files or URLs
 - Save / Save As functionality
+- GitHub integration
 
 ## ▶️ Playback & Testing
 
@@ -45,15 +46,17 @@ Simply download the EXE and run it on a supported Windows system.
 
 A Windows Build Kit is included for users who want to rebuild the application.
 
+**[⬇️ Download Playlist Studio 5.0 Windows Build Kit](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0-Windows-Build-Kit-Final.zip)**
+
 ### Build Instructions
 
-1. Download `Playlist-Studio-5.0-Windows-Build-Kit-Final.zip`
-2. Extract the ZIP file
-3. Open the extracted folder
-4. Run **`BUILD-Windows.cmd`**
-5. Wait for the build process to finish
-6. The generated application will be available in the main folder and `dist` folder
-7. Run **`Playlist-Studio-5.0.exe`**
+1. Download the Windows Build Kit ZIP.
+2. Extract the ZIP file.
+3. Open the extracted folder.
+4. Run **`BUILD-Windows.cmd`**.
+5. Wait for the build process to finish.
+6. The generated application will be available in the main folder and `dist` folder.
+7. Run **`Playlist-Studio-5.0.exe`**.
 
 See **`Readme.txt`** inside the Build Kit for detailed instructions.
 
@@ -68,13 +71,7 @@ See **`Readme.txt`** inside the Build Kit for detailed instructions.
 | **Installation** | Not required |
 | **Playback** | Built-in |
 
-## 📦 Release Files
-
-- **`Playlist-Studio-5.0.Portable.exe`** — Portable Windows application
-- **`Playlist-Studio-5.0-Windows-Build-Kit-Final.zip`** — Windows Build Kit
-
 ---
-
 
 ## 🔗 Related Project
 

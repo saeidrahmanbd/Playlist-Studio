@@ -59,7 +59,7 @@ See **Readme.txt** inside the Build Kit for detailed instructions.
 
 ## 🔗 Related Project
 
-**[BDIX-IPTV](https://github.com/saeidrahmanbd/BDIX-IPTV)** is the IPTV playlist project where Playlist Studio was originally developed and tested.
+**[BDIX-IPTV](https://github.com/saeidrahmanbd/BDIX-IPTV)** is the associated IPTV playlist project for Playlist Studio, providing the **BDIX-Playlist.m3u** and **IPTV-Playlist.m3u** playlists used with the software.
 
 ## ⚠️ Usage
 

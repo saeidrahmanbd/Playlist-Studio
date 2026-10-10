@@ -10,7 +10,7 @@ Portable application — no traditional installation required.
 
 ### Windows Build Kit
 
-**[📦 Download Playlist-Studio-5.0-Windows-Build-Kit-Final.zip](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0-Windows-Build-Kit-Final.zip)**
+**[📦 Download Playlist-Studio-5_0-Windows-Build-Kit-Debug11.zip](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug11.zip)**
 
 Includes the files required to build the Windows application.
 

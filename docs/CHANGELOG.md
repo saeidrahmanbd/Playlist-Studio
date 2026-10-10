@@ -4,18 +4,13 @@
 
 ### Playlist Studio
 
-- Established Playlist Studio as a standalone IPTV application repository.
-- Supports M3U / M3U8 playlists.
-- Supports Xtream Codes.
-- Supports Stalker Portal / MAC.
-- Added built-in IPTV playback.
-- Added stream scanning and status checking.
-- Added EPG support.
-- Added channel and category management.
-- Added channel metadata and logo management.
-- Added duplicate channel and stream detection.
-- Added multiple interface themes.
-- Added portable Windows application.
-- Added Windows Build Kit.
+- Published Playlist Studio as a standalone Windows application.
+- Supports M3U / M3U8 playlists, Xtream Codes, and Stalker Portal / MAC services.
+- Includes built-in playback and stream scanning.
+- Includes EPG, channel metadata, logo, and category management.
+- Includes duplicate channel and stream detection.
+- Supports multi-channel and multi-category selection.
+- Includes GitHub integration, Save / Save As, and multiple interface themes.
+- Published the portable Windows executable and Windows Build Kit.
 
-For release details, see the **[Playlist Studio v5.0.0 Release](https://github.com/saeidrahmanbd/BDIX-IPTV/releases/tag/v5.0.0)**.
+For current downloads, see the **[Playlist Studio v5.0.0 Release](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0)**.

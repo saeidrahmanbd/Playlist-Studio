@@ -27,13 +27,13 @@ Playlist Studio 5.0 is a general-purpose Windows application for managing, editi
 
 ### Portable Application
 
-**[⬇️ Download Playlist Studio 5.0 Portable](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0.Portable.exe)**
+**[⬇️ Download Playlist Studio 5.0 Portable](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0.exe)**
 
 Download and run the EXE on supported 64-bit Windows. No traditional installation is required.
 
 ### Windows Build Kit
 
-**[📦 Download Playlist Studio 5.0 Windows Build Kit](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug11.zip)**
+**[📦 Download Playlist Studio 5.0 Windows Build Kit](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug12.zip)**
 
 To build the application yourself, extract the ZIP and follow the included `Readme.txt`.
 

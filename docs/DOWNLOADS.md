@@ -10,7 +10,7 @@ Portable application — no traditional installation required. Run it on a suppo
 
 ### Windows Build Kit
 
-**[📦 Download Playlist-Studio-5_0-Windows-Build-Kit-Debug12.zip](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug12.zip)**
+**[📦 Download Playlist-Studio-5_0-Windows-Build-Kit-Debug16.zip](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug16.zip)**
 
 For users who want to build the application themselves. Extract the ZIP and follow the included `Readme.txt`.
 

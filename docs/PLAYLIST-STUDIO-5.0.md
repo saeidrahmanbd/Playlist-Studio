@@ -23,7 +23,7 @@ Playlist Studio is a portable Windows x64 application for managing, editing, tes
 
 Get the portable application and optional Windows Build Kit from the [v5.0.0 release page](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0). The EXE runs on supported 64-bit Windows systems without a traditional installation.
 
-To build from source, download `Playlist-Studio-5_0-Windows-Build-Kit-Debug12.zip`, extract it, run `BUILD-Windows.cmd`, and follow the included `Readme.txt`.
+To build from source, download `Playlist-Studio-5_0-Windows-Build-Kit-Debug16.zip`, extract it, run `BUILD-Windows.cmd`, and follow the included `Readme.txt`.
 
 ## Version
 

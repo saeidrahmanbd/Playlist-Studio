@@ -9,7 +9,7 @@ Playlist Studio is a **portable Windows IPTV playlist manager, editor, tester, a
 ## Download
 
 - **[Download Playlist Studio 5.0 (.exe)](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0.exe)** — portable Windows x64 application.
-- **[Download Windows Build Kit (.zip)](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug12.zip)** — for users who want to build the application.
+- **[Download Windows Build Kit (.zip)](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug16.zip)** — for users who want to build the application.
 - [View release details and all assets](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0)
 
 ## Documentation

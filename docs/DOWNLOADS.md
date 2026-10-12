@@ -14,7 +14,7 @@ No traditional installation is needed. You do not need to install Python or VLC 
 
 ## Build Kit — only if you want to build the app yourself
 
-[Download the Windows Build Kit ZIP](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug16.zip)
+[Download the Windows Build Kit ZIP](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug22.zip)
 
 This is for developers or advanced users. It requires Windows 10/11 64-bit, Python 3.12+ with the `py` launcher and Tkinter, plus an internet connection.
 

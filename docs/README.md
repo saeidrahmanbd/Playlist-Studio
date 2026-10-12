@@ -1,36 +1,28 @@
-# 📚 Playlist Studio Documentation
+# Playlist Studio — Help
 
-## Playlist Studio
+New to Playlist Studio? Start with these two links:
 
-**Playlist Studio** is a standalone Windows application for managing, editing, testing, and playing playlists and compatible IPTV services.
+1. **[Download and open the app](DOWNLOADS.md)** — no installer required.
+2. **[Quick Start](QUICK-START.md)** — open a playlist, edit it and save your work.
 
-### Supported Sources
+For more detail, use the [full user guide](PLAYLIST-STUDIO-5.0.md).
 
-- **M3U / M3U8** playlists
-- **Xtream Codes**
-- **Stalker Portal / MAC**
+## What Playlist Studio supports
 
-### Main Features
+- M3U/M3U8 files and links
+- Compatible Xtream Codes connections
+- Stalker Portal / MAC connections
+- Channel and category editing
+- Stream scanning and built-in playback
+- Channel logo and EPG metadata management
+- Saving, backups and recovery
 
-- Playlist import and editing
-- Channel and category management
-- Stream URL, EPG, logo, and metadata editing
-- Built-in playback and stream testing
-- Duplicate channel and stream detection
-- Multi-channel and multi-category selection
-- Save / Save As
-- Multiple interface themes
-- Portable Windows application
-- GitHub integration
+## Other documentation
 
-## Documentation
+- [Downloads](DOWNLOADS.md)
+- [Full user guide](PLAYLIST-STUDIO-5.0.md)
+- [Changelog](CHANGELOG.md)
 
-- **[Playlist Studio 5.0](PLAYLIST-STUDIO-5.0.md)** — features, supported sources, usage and build kit information
-- **[Download Center](DOWNLOADS.md)** — current application and build kit downloads
-- **[Changelog](CHANGELOG.md)** — version history
+[Playlist Studio v5.0.0 release](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0)
 
-## Release
-
-**[Playlist Studio 5.0.0 Release](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0)**
-
-> Use Playlist Studio only with services and playlists you are authorized to access and use.
+Use only playlists and IPTV services you are authorized to access and use.

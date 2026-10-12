@@ -1,29 +1,44 @@
 # Playlist Studio 5.0
 
-**Windows Playlist Manager, Editor & Player**
+**Manage, edit, test and play IPTV playlists on Windows.**
 
-Playlist Studio is a **portable Windows IPTV playlist manager, editor, tester, and player** for M3U/M3U8 files and compatible IPTV connections. It includes playlist organization, stream playback and scanning, channel metadata and logo management, and support for compatible Xtream Codes and Stalker Portal/MAC services.
+## Start here — 3 easy steps
 
-![Playlist Studio 5.0](https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/assets/Playlist%20Studio%205.0.png)
+<ol>
+<li><strong><a href="https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0.exe">Download Playlist Studio</a></strong>.</li>
+<li>When the download finishes, double-click <code>Playlist-Studio-5.0.exe</code>. No installer, Python or separate VLC installation is needed.</li>
+<li>Open your M3U/M3U8 playlist, make your changes, and click <strong>Save</strong>.</li>
+</ol>
 
-## Download
+**That’s all you need to get started.** The first launch may take a few seconds. Download the app only from the official release linked above.
 
-- **[Download Playlist Studio 5.0 (.exe)](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0.exe)** — portable Windows x64 application.
-- **[Download Windows Build Kit (.zip)](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug16.zip)** — for users who want to build the application.
-- [View release details and all assets](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0)
+If Windows SmartScreen appears, confirm that you downloaded the official file before choosing **More info → Run anyway**.
 
-## Documentation
+## What can I do with it?
 
-- [Usage and feature guide](docs/PLAYLIST-STUDIO-5.0.md)
-- [Download Center](docs/DOWNLOADS.md)
+- Open a playlist from your computer, drag and drop a file, or import a playlist URL.
+- Add, rename, sort, move and delete channels or categories.
+- Edit channel names, numbers, logos, stream URLs and EPG information.
+- Scan streams and export the results to Excel.
+- Play channels in the built-in player.
+- Connect to compatible Xtream Codes or Stalker Portal/MAC services.
+- Undo changes and recover work after a crash.
+
+## Simple how-to guides
+
+- [Quick Start — open, edit and save a playlist](docs/QUICK-START.md)
+- [More features and connection options](docs/PLAYLIST-STUDIO-5.0.md)
+- [Downloads and Build Kit](docs/DOWNLOADS.md)
 - [Changelog](docs/CHANGELOG.md)
 
-## Related Project
+## Need the Build Kit?
 
-[BDIX-IPTV](https://github.com/saeidrahmanbd/BDIX-IPTV) is a separate curated Bangladesh and India IPTV playlist project, with playlist files, EPG information, stream-health checks, and maintenance reports. **Playlist Studio is general-purpose software** and can be used with other playlists and compatible services.
+Most people **do not need the Build Kit**. It is for users who want to rebuild the program. It requires 64-bit Python 3.12 or newer and an internet connection during the build.
 
-- [BDIX-IPTV main playlist](https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/IPTV-Playlist.m3u)
-- [BDIX-IPTV Download Center](https://github.com/saeidrahmanbd/BDIX-IPTV/blob/main/docs/DOWNLOADS.md)
-- [Playlist Studio v5.0.0 release and downloads](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0)
+[Download Windows Build Kit](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug16.zip)
 
-Use only IPTV services and playlists you are authorized to access and use.
+## Related project
+
+[BDIX-IPTV](https://github.com/saeidrahmanbd/BDIX-IPTV) is a separate playlist project. Playlist Studio is general-purpose and can be used with other playlists and compatible services.
+
+Use only playlists and IPTV services you are authorized to access and use.

@@ -35,7 +35,7 @@ If Windows SmartScreen appears, confirm that you downloaded the official file be
 
 Most people **do not need the Build Kit**. It is for users who want to rebuild the program. It requires 64-bit Python 3.12 or newer and an internet connection during the build.
 
-[Download Windows Build Kit](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug16.zip)
+[Download Windows Build Kit](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug22.zip)
 
 ## Related project
 

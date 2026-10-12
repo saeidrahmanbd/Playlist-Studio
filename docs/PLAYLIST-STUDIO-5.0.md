@@ -1,39 +1,59 @@
-# Playlist Studio 5.0 — Usage and Features
+# Playlist Studio 5.0 — Easy User Guide
 
-Playlist Studio is a portable Windows x64 application for managing, editing, testing, and playing M3U/M3U8 playlists and connecting to compatible IPTV services.
+## 1. Open a playlist
 
-## Supported Sources
+Choose whichever way is easiest:
 
-- M3U / M3U8 files and URLs
-- Xtream Codes
-- Stalker Portal / MAC services
+- Open one or more `.m3u` or `.m3u8` files.
+- Drag a playlist file onto the app window.
+- Use **Import URL** to load a playlist link.
 
-## Features
+If you import into a playlist that already has channels, the app asks whether to **Append** or **Replace**. Append adds to the current list; Replace loads the new playlist instead.
 
-- Import playlists from local files or URLs
-- Organize channels and categories
-- Edit channel names, IDs, numbers, logos, EPG data, and stream URLs
-- Select multiple channels or categories
-- Detect duplicate channels and streams
-- Play streams and scan channel status
-- Save changes with Save or Save As
-- GitHub integration and multiple interface themes
+## 2. Make changes
+
+Select a category, then select a channel to edit it. You can change a channel's name, group, stream URL, logo, EPG details and other metadata.
+
+Common tasks:
+
+- **Find a channel:** use Search.
+- **Organize channels:** move them to another category or sort a category A–Z.
+- **Edit several categories:** use Ctrl/Shift-click to select multiple categories.
+- **Undo a mistake:** use Undo; Redo reapplies an undone change.
+- **Reload updated source data:** use Refresh. It reloads the current local file or fetches the current link/account again, then sorts channels A–Z in each category.
+
+Refresh reloads the source, so save important edits first if that source is an external playlist.
+
+## 3. Test channels
+
+Use **Scan** to check all channels, the selected category or the current view. Results appear in the Status column. Filter by Dead or Review, and export scan results to Excel when needed.
+
+Select a channel and use the built-in player to test playback. The player includes volume, seeking, fit/fill/stretch and full-screen controls.
+
+## 4. Save safely
+
+- **Save** writes changes to the current playlist.
+- **Save As** writes a separate copy.
+- The app makes backups before overwriting files and autosaves recovery data.
+
+If the app closes unexpectedly, follow the recovery prompt on the next launch.
+
+## 5. Connect to an IPTV service
+
+You can connect using a compatible **Xtream Codes** account or **Stalker Portal / MAC** login, or import a standard M3U/M3U8 link.
+
+For Xtream or Stalker connections, enter the details supplied by your service provider. Playlist Studio supports live channels through its Xtream API route and falls back to M3U where possible.
+
+Only connect to services you are authorized to use.
+
+## 6. Settings
+
+Open **Settings** to change themes, player behavior, connection options and GitHub Integration. You can also open the backup folder and About page from the Settings menu.
 
 ## Download
 
-Get the portable application and optional Windows Build Kit from the [v5.0.0 release page](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0). The EXE runs on supported 64-bit Windows systems without a traditional installation.
+[Download Playlist Studio 5.0 (.exe)](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0.exe) — the normal choice for most users.
 
-To build from source, download `Playlist-Studio-5_0-Windows-Build-Kit-Debug16.zip`, extract it, run `BUILD-Windows.cmd`, and follow the included `Readme.txt`.
+[Download Windows Build Kit (.zip)](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug16.zip) — only if you want to rebuild the app.
 
-## Version
-
-| Item | Details |
-|---|---|
-| Version | 5.0 |
-| Release | v5.0.0 |
-| Platform | Windows x64 |
-| Application type | Portable |
-| Playlist formats | M3U / M3U8 |
-| Playback | Built-in |
-
-Use Playlist Studio only with services and playlists you are authorized to access and use.
+[Open the official release page](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0)

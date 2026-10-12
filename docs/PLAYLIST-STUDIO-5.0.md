@@ -54,6 +54,6 @@ Open **Settings** to change themes, player behavior, connection options and GitH
 
 [Download Playlist Studio 5.0 (.exe)](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0.exe) — the normal choice for most users.
 
-[Download Windows Build Kit (.zip)](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug16.zip) — only if you want to rebuild the app.
+[Download Windows Build Kit (.zip)](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug22.zip) — only if you want to rebuild the app.
 
 [Open the official release page](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0)

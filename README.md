@@ -38,7 +38,7 @@
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/assets/Playlist%20Studio%205.0.png"
+    src="https://github.com/saeidrahmanbd/BDIX-IPTV/blob/main/assets/playlist-studio-5.png"
     alt="Playlist Studio 5.0 — channel list, built-in player and channel editor"
     width="100%"
   >

@@ -170,7 +170,7 @@ BUILD-WINDOWS.cmd --fresh
 - **[Playlist-Studio-5.1.exe](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5.1.exe)** — portable Windows application.
 - **[Playlist-Studio-5_1-Windows-Build-Kit-r2.zip](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5_1-Windows-Build-Kit-r2.zip)** — Windows build kit.
 
-**[View the official Playlist Studio v5.1 release](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.1)**
+**[Visit the Playlist Studio project website](https://saeidrahmanbd.github.io/BDIX-IPTV/playlist-studio.html)** · **[View the official Playlist Studio v5.1 release](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.1)**
 
 ### Verify your download
 

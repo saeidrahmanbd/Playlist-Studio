@@ -1,59 +1,69 @@
-# Playlist Studio 5.0 — Easy User Guide
+# Playlist Studio — User Guide (v5.1)
 
-## 1. Open a playlist
+This guide describes the main workflows and the v5.1 additions. For the official feature list, downloads and build instructions, see the [root README](../README.md) and the [v5.1 release](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.1).
 
-Choose whichever way is easiest:
+## 1. Open or import a playlist
 
 - Open one or more `.m3u` or `.m3u8` files.
-- Drag a playlist file onto the app window.
-- Use **Import URL** to load a playlist link.
+- Drag a playlist file onto the application window.
+- Use **Import URL** to download a playlist link.
+- Connect through a compatible Xtream Codes account or Stalker Portal / MAC login.
 
-If you import into a playlist that already has channels, the app asks whether to **Append** or **Replace**. Append adds to the current list; Replace loads the new playlist instead.
+When importing into a non-empty playlist, choose **Append** to add the imported channels or **Replace** to replace the current list.
 
-## 2. Make changes
+## 2. Organize and edit
 
-Select a category, then select a channel to edit it. You can change a channel's name, group, stream URL, logo, EPG details and other metadata.
+Select a category and channel to edit channel name, group, stream URL, logo, EPG fields and playback directives. You can add, duplicate, delete, move and reorder channels; add, rename, delete and reorder categories; and select multiple categories with Ctrl/Shift-click.
 
-Common tasks:
+Use Search to find channels. Sort a category A–Z when needed. Undo / Redo covers recent changes.
 
-- **Find a channel:** use Search.
-- **Organize channels:** move them to another category or sort a category A–Z.
-- **Edit several categories:** use Ctrl/Shift-click to select multiple categories.
-- **Undo a mistake:** use Undo; Redo reapplies an undone change.
-- **Reload updated source data:** use Refresh. It reloads the current local file or fetches the current link/account again, then sorts channels A–Z in each category.
+## 3. EPG Centre (new in 5.1)
 
-Refresh reloads the source, so save important edits first if that source is an external playlist.
+Open **Settings > EPG centre** or use the EPG button.
 
-## 3. Test channels
+- Load XMLTV guides from URLs or local `.xml`, `.gz`, `.xz` and `.zip` files.
+- Load multiple sources; a damaged source is reported while other sources continue to load.
+- Cancel a long-running guide load.
+- Review coverage totals, category/source breakdowns and the guide horizon.
+- Inspect per-channel statuses, including matched, guide ending soon, expired, no programmes, ID not in guide, missing `tvg-id` and duplicate IDs.
+- See Now / Next with `tvg-shift` applied in your local timezone.
+- Suggested IDs are suggestions only; nothing changes until you approve it.
+- Edit the visible `tvg-id` column, or use the bulk metadata editor with preview and one-step Undo.
+- Manage remembered manual EPG corrections in Settings. Corrections can be reviewed, edited, disabled or removed and are reapplied after refresh and re-import operations.
 
-Use **Scan** to check all channels, the selected category or the current view. Results appear in the Status column. Filter by Dead or Review, and export scan results to Excel when needed.
+## 4. Scan streams
 
-Select a channel and use the built-in player to test playback. The player includes volume, seeking, fit/fill/stretch and full-screen controls.
+Use **Scan** to scan all channels, the selected category or the current view. You can pause, resume or cancel. Per-server limits, timeouts, retries and player identity can be configured. HLS freshness checks and optional deep diagnostics are available.
 
-## 4. Save safely
+Statuses include Responsive, Dead, Unreachable, Restricted, Stale, Unavailable, Unverified and Error. A timeout or blocked request is not automatically a Dead result. Your own Good / Bad / Review verdicts and notes are remembered between sessions; a scan does not overwrite your verdict. Export scan results to Excel or JSON.
+
+## 5. Play a channel
+
+Select a channel and start playback in the built-in VLC player. Use the volume, seek, fit/fill/stretch and full-screen controls. Alt+Right / Alt+Left moves to the next or previous channel.
+
+DRM-protected streams or streams that do not respond may show an explanation in the player. A stream that does not start within the configured startup period can be stopped with a Retry hint.
+
+## 6. Xtream Codes and Stalker / MAC
+
+Provider login and imports run in the background and can be cancelled. Xtream can fall back to an M3U download if its API route fails. Stalker imports can be undone, and failed imports leave the existing playlist untouched.
+
+Remembered provider credentials are protected with Windows DPAPI and are not written in plain text. You can mask credentials in the channel list. Only connect to services you are authorized to access.
+
+## 7. Save and recover
 
 - **Save** writes changes to the current playlist.
 - **Save As** writes a separate copy.
-- The app makes backups before overwriting files and autosaves recovery data.
+- Saving is atomic; backups are made before overwriting.
+- Autosave and recovery data help restore unsaved changes after a crash.
+- UTF-8 without BOM is the default; an optional BOM setting is available.
+- Playlist directives, comments and unknown header keys are preserved.
 
-If the app closes unexpectedly, follow the recovery prompt on the next launch.
+## 8. Settings and data locations
 
-## 5. Connect to an IPTV service
+Settings includes General, Themes, Player, Xtream / Stalker, GitHub Integration, Open backups folder and About. The application keeps its settings, backups and recovery files under `%APPDATA%\Playlist Studio 5.0\` for compatibility with existing 5.0 data. The first-start diagnostic log is under `%TEMP%\Playlist Studio 5.0-startup.log`.
 
-You can connect using a compatible **Xtream Codes** account or **Stalker Portal / MAC** login, or import a standard M3U/M3U8 link.
+## Downloads
 
-For Xtream or Stalker connections, enter the details supplied by your service provider. Playlist Studio supports live channels through its Xtream API route and falls back to M3U where possible.
-
-Only connect to services you are authorized to use.
-
-## 6. Settings
-
-Open **Settings** to change themes, player behavior, connection options and GitHub Integration. You can also open the backup folder and About page from the Settings menu.
-
-## Download
-
-[Download Playlist Studio 5.0 (.exe)](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5.0.exe) — the normal choice for most users.
-
-[Download Windows Build Kit (.zip)](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.0.0/Playlist-Studio-5_0-Windows-Build-Kit-Debug22.zip) — only if you want to rebuild the app.
-
-[Open the official release page](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.0.0)
+- [Playlist Studio 5.1 portable EXE](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5.1.exe)
+- [Windows Build Kit r2](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5_1-Windows-Build-Kit-r2.zip)
+- [Official v5.1 release page](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.1)

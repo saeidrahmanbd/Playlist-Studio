@@ -178,8 +178,8 @@ GitHub publishes SHA-256 digests for both release assets. The published values a
 
 | Asset | SHA-256 |
 |---|---|
-| `Playlist-Studio-5.1.exe` | `ef0b58e0108dc76d886b92a88170ff5fd231704604150d6283feb6f1b9f48412` |
-| `Playlist-Studio-5_1-Windows-Build-Kit-r2.zip` | `66d1de92f3d2285c38afae767697dae71e74a842266ce644700f8cd745453335` |
+| `Playlist-Studio-5.1.exe` | `9ff254ce20124aba7b2802fa707c8f79df058b9760038ad72ec6cd5df1f0ada8` |
+| `Playlist-Studio-5_1-Windows-Build-Kit-r2.zip` | `b74cba0ff13481f626af9a82607b8cd9eb1a5b1da93bc5b620a1c027ce414dfa` |
 
 In PowerShell, calculate a local file hash with:
 
@@ -188,7 +188,7 @@ Get-FileHash .\Playlist-Studio-5.1.exe -Algorithm SHA256
 Get-FileHash .\Playlist-Studio-5_1-Windows-Build-Kit-r2.zip -Algorithm SHA256
 ```
 
-Compare the result with the corresponding release asset digest. The release page is authoritative if an asset is replaced.
+Compare the result with the corresponding release asset digest. GitHub's published release-asset SHA-256 digest is the reference value. Recalculate the local hash after downloading and compare it with the digest shown on the official release page.
 
 ---
 

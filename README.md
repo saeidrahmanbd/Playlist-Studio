@@ -1,206 +1,147 @@
 <h1 align="center">🎬 Playlist Studio 5.1</h1>
 
+<p align="center"><b>Windows IPTV Playlist Manager · M3U/M3U8 Editor · XMLTV EPG Tool · Stream Scanner · Player</b><br>Portable Windows application · No installer · No Python or separate VLC installation required to run</p>
+
+<p align="center"><a href="https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5.1.exe"><img src="https://img.shields.io/badge/⬇%20DOWNLOAD%20PLAYLIST%20STUDIO%205.1-2ea44f?style=for-the-badge" alt="Download Playlist Studio 5.1 for Windows"></a></p>
+
 <p align="center">
-  <b>Windows Playlist Manager, Editor, EPG Tool &amp; Player.</b><br>
-  Portable · No installer · No Python or separate VLC required to run
+<a href="https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.1"><img src="https://img.shields.io/github/v/release/saeidrahmanbd/Playlist-Studio?style=for-the-badge&logo=github&label=Release&color=0969da" alt="Latest release"></a>
+<a href="https://github.com/saeidrahmanbd/Playlist-Studio/stargazers"><img src="https://img.shields.io/github/stars/saeidrahmanbd/Playlist-Studio?style=for-the-badge&logo=github&color=f5c542" alt="GitHub stars"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-Proprietary-8250df?style=for-the-badge" alt="Proprietary license"></a>
+<a href="https://github.com/saeidrahmanbd/Playlist-Studio/commits/main"><img src="https://img.shields.io/github/last-commit/saeidrahmanbd/Playlist-Studio?style=for-the-badge&color=e5534b" alt="Latest update"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5.1.exe"><img src="https://img.shields.io/badge/⬇%20DOWNLOAD%20PLAYLIST%20STUDIO%205.1-2ea44f?style=for-the-badge" alt="Download Playlist Studio 5.1"></a>
+<img src="https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows 10 and 11">
+<img src="https://img.shields.io/badge/Formats-M3U%20%2F%20M3U8-6f42c1?style=flat-square" alt="M3U and M3U8">
+<img src="https://img.shields.io/badge/EPG-XMLTV-2ea44f?style=flat-square" alt="XMLTV EPG">
+<img src="https://img.shields.io/badge/Providers-Xtream%20%2F%20Stalker-00b4d8?style=flat-square" alt="Xtream Codes and Stalker Portal">
 </p>
 
-<p align="center">
-  <a href="https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.1"><img src="https://img.shields.io/github/v/release/saeidrahmanbd/Playlist-Studio?style=for-the-badge&logo=github&label=Release&color=0969da" alt="Release"></a>
-  <a href="https://github.com/saeidrahmanbd/Playlist-Studio/stargazers"><img src="https://img.shields.io/github/stars/saeidrahmanbd/Playlist-Studio?style=for-the-badge&logo=github&color=f5c542" alt="Stars"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/saeidrahmanbd/Playlist-Studio?style=for-the-badge&color=8250df" alt="License"></a>
-  <a href="https://github.com/saeidrahmanbd/Playlist-Studio/commits/main"><img src="https://img.shields.io/github/last-commit/saeidrahmanbd/Playlist-Studio?style=for-the-badge&color=e5534b" alt="Last commit"></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows">
-  <img src="https://img.shields.io/badge/Formats-M3U%20%2F%20M3U8-6f42c1?style=flat-square" alt="M3U / M3U8">
-  <img src="https://img.shields.io/badge/EPG-XMLTV-2ea44f?style=flat-square" alt="XMLTV EPG">
-  <img src="https://img.shields.io/badge/Xtream%20%2F%20Stalker-Supported-00b4d8?style=flat-square" alt="Xtream and Stalker support">
-  <img src="https://img.shields.io/badge/Portable-Yes-success?style=flat-square" alt="Portable">
-</p>
-
-<p align="center">
-  <a href="#product-glimpse">Preview</a> ·
-  <a href="#start-here">Get Started</a> ·
-  <a href="#whats-new-in-51">What's New</a> ·
-  <a href="#guides">Guides</a> ·
-  <a href="#build-kit">Build Kit</a>
-</p>
+<p align="center"><a href="#overview">Overview</a> · <a href="#features">Features</a> · <a href="#download">Download</a> · <a href="#documentation">Documentation</a> · <a href="docs/FAQ.md">FAQ</a></p>
 
 ---
 
-## Product Glimpse
+## Overview
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/assets/Playlist-Studio-5.1.JPG" alt="Playlist Studio 5.1 — Windows playlist manager, EPG centre, scanner and built-in player" width="100%">
-</p>
+Playlist Studio is a portable Windows desktop application for managing, editing, organizing, testing and playing M3U and M3U8 playlists. It combines playlist editing, channel metadata, XMLTV electronic programme guide (EPG) management, stream diagnostics and playback in one workspace.
 
-<p align="center"><sub>Manage playlists, inspect programme-guide coverage, scan streams and play channels in one workspace.</sub></p>
+It is a general-purpose playlist utility for authorized IPTV subscriptions, personal media playlists and compatible M3U/M3U8 sources. It does not provide television channels, subscriptions or access credentials.
 
----
+<p align="center"><img src="https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/assets/Playlist-Studio-5.1.JPG" alt="Playlist Studio 5.1 Windows application showing playlist management, XMLTV EPG centre, stream scanner and built-in player" width="100%"></p>
+<p align="center"><sub>Manage playlists, review programme-guide coverage, inspect stream status and play channels in one workspace.</sub></p>
 
-<a id="start-here"></a>
-## 🚀 Start here — 3 easy steps
+## Download
 
-| Step | What to do |
-|:---:|---|
-| **1** | **[⬇️ Download Playlist Studio 5.1](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5.1.exe)** |
-| **2** | Open your Downloads folder and double-click `Playlist-Studio-5.1.exe`. |
-| **3** | Open an M3U/M3U8 playlist, make your changes, and click **Save**. |
+**[Download Playlist Studio 5.1 Portable for Windows](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5.1.exe)**
 
-> **No installer, Python or separate VLC installation is needed to run the portable application.** The first launch may take a few seconds while the single-file executable unpacks.
+1. Download the EXE from the official release.
+2. Double-click `Playlist-Studio-5.1.exe`.
+3. Open an M3U/M3U8 playlist, edit it and select **Save** or **Save As**.
 
-> **Windows SmartScreen:** Verify that you downloaded the file from the official release linked above. Windows may warn because the executable is unsigned. If you trust the source, choose **More info → Run anyway**.
+No traditional installer, Python runtime or separate VLC installation is required to run the released application. The first launch may take a few seconds while the single-file executable unpacks.
 
----
+**Windows SmartScreen:** The executable is unsigned and Windows may display a warning. Verify that the download came from the official GitHub release before deciding whether to run it.
 
-<a id="whats-new-in-51"></a>
-## ✨ What's new in 5.1
+## Features
 
-### 📺 EPG Centre
-- Load XMLTV guides from URLs or local files: `.xml`, `.gz`, `.xz` and `.zip`; load multiple sources in one session.
-- A damaged guide is reported while other sources continue loading; long loads can be cancelled.
-- Coverage dashboard with totals, category/source breakdowns and guide horizon.
-- Channel guide statuses: matched, guide ending soon, expired, no programmes, ID not in guide, missing `tvg-id` and duplicate IDs.
-- Now / Next display applies the channel time shift and shows times in your local timezone.
-- Suggested IDs require user approval; they are not applied automatically.
-- Visible, sortable, searchable and editable `tvg-id` column.
-- Bulk metadata editor with preview and one-step Undo.
-- Manual EPG corrections can be reviewed, edited, disabled or removed and are reapplied after Refresh, re-import and Xtream / Stalker updates.
+### M3U / M3U8 Playlist Editor
+- Open playlists from local files or URLs.
+- Edit channel names, groups, stream URLs, logos, EPG identifiers and metadata.
+- Organize categories, select multiple channels, detect duplicates and manage playlist entries.
+- Save changes or create a separate copy with Save As.
+- Preserve playlist directives, comments and unknown header keys.
 
-### 🔍 Smarter Stream Scanner
-- Statuses: **Responsive, Dead, Unreachable, Restricted, Stale, Unavailable, Unverified and Error**.
-- Timeouts and blocked requests are never labelled Dead automatically.
-- Pause, resume and cancel scans; configure per-server limits, timeouts, retries and player identity.
-- HLS freshness checks and optional deep diagnostics.
-- Scan selected channels, the current category or the current view.
-- Good / Bad / Review verdicts, notes and scan history persist between sessions. New scans do not overwrite your verdicts.
-- Export scan results to Excel or JSON.
+### XMLTV EPG Centre
+- Load XMLTV guides from URLs or local XML, GZ, XZ and ZIP files; multiple sources can be loaded together.
+- Review programme coverage, guide horizon, category/source breakdowns and channel matching statuses.
+- Inspect Now / Next with channel time shifts applied and times shown in local time.
+- Search, sort and edit `tvg-id` values; preview bulk metadata changes and undo.
+- Review and manage manual EPG corrections. Suggested IDs require user approval.
 
-### ☁️ Xtream Codes & MAC / Stalker
-- Background logins and imports with a Cancel option.
-- Xtream falls back to M3U download if the API route fails.
-- Stalker / MAC imports can be undone; a failed import leaves the playlist untouched.
-- Remembered credentials are protected with Windows DPAPI and are not stored in plain text.
+### Stream Scanner and Built-in Player
+- Distinguish Responsive, Dead, Unreachable, Restricted, Stale, Unavailable, Unverified and Error statuses.
+- Timeouts and blocked requests are not automatically treated as confirmed Dead streams.
+- Pause, resume or cancel scans; configure per-server limits, timeouts, retries and player identity.
+- Run HLS freshness checks and optional deeper diagnostics.
+- Keep Good / Bad / Review verdicts, notes and scan history between sessions.
+- Export scan results to Excel or JSON and play compatible streams in the built-in player.
 
-### 💾 Safer Saving & Editing
-- UTF-8 saving without BOM by default; optional BOM setting.
+### Xtream Codes and Stalker Portal / MAC
+- Import from supported Xtream Codes and Stalker Portal / MAC connections.
+- Run login and import operations in the background with cancellation.
+- Fall back to M3U download when the Xtream API route fails.
+- Undo Stalker imports; failed imports leave the existing playlist untouched.
+- Remembered provider credentials are protected using Windows DPAPI rather than stored in plain text.
+
+### Safer Editing and Saving
+- UTF-8 saving without BOM by default, with an optional BOM setting.
 - Preserve directives, comments and unknown playlist header keys.
-- Malformed channel lines can be repaired on import instead of aborting the import.
-- If a backup cannot be made, the app asks before overwriting.
-- Credentials can be masked in the channel list.
-- Alt+Right / Alt+Left next/previous channel shortcuts, player buffering setting and single-instance operation.
+- Handle malformed channel lines during import without aborting the entire import.
+- Backups and recovery support, credential masking and next/previous channel shortcuts.
 
-### ✅ Core features
-M3U/M3U8 playlist management · Channel and category editing · Multi-selection · Duplicate detection · Built-in playback with fullscreen and volume · Import from files or URLs · Save / Save As · Multiple themes · GitHub integration.
+## Documentation
 
----
-
-<a id="guides"></a>
-## 📖 Guides
-
-| Guide | Description |
+| Resource | Description |
 |---|---|
-| 🚀 [Quick Start](docs/QUICK-START.md) | Download, open a playlist, edit and save |
-| ⚙️ [User Guide](docs/PLAYLIST-STUDIO-5.0.md) | Core workflow and feature usage (some screenshots or labels may reflect 5.0) |
-| 📥 [Downloads & Build Kit](docs/DOWNLOADS.md) | Official downloads and build requirements |
-| 📝 [Changelog](docs/CHANGELOG.md) | Version history |
+| [Quick Start](docs/QUICK-START.md) | Download, open, edit, scan and save a playlist |
+| [User Guide](docs/PLAYLIST-STUDIO-5.0.md) | Detailed workflows; some screenshots or labels may reflect the earlier 5.0 interface |
+| [Downloads and Build Kit](docs/DOWNLOADS.md) | Official files, requirements and build instructions |
+| [FAQ](docs/FAQ.md) | Questions about formats, EPG, scanning, providers and troubleshooting |
+| [Changelog](docs/CHANGELOG.md) | Version history |
+| [Documentation Index](docs/README.md) | All help resources |
 
----
+## Build Kit
 
-<a id="build-kit"></a>
-## 🔧 Windows Build Kit r2
+Most users only need the portable EXE. The Windows Build Kit is for developers and advanced users who want to rebuild the application.
 
-> Most users only need the portable EXE above. The Build Kit is for developers or advanced users who want to rebuild the application.
+**[Download Playlist Studio 5.1 Windows Build Kit r2](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5_1-Windows-Build-Kit-r2.zip)**
 
-**Requirements:** Windows 10/11 x64 and 64-bit Python **3.10–3.13** (Python 3.13 recommended), plus an internet connection for Python packages and the VLC download. **Python 3.14 and 3.15 are not supported** by the current pinned PyInstaller dependency set. You may keep newer Python versions installed alongside Python 3.13.
+Requirements: Windows 10/11 x64 and 64-bit Python 3.10–3.13 (Python 3.13 recommended), plus internet access for package installation and the VLC download. Python 3.14 and 3.15 are not supported by the current pinned PyInstaller dependency set.
 
-<p align="center">
-  <a href="https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5_1-Windows-Build-Kit-r2.zip"><img src="https://img.shields.io/badge/📦%20DOWNLOAD%20WINDOWS%20BUILD%20KIT%20r2-6e7681?style=for-the-badge" alt="Download Playlist Studio 5.1 Windows Build Kit r2"></a>
-</p>
-
-### Build in four steps
-
-1. Download and extract **Playlist-Studio-5_1-Windows-Build-Kit-r2.zip**.
+1. Extract the Build Kit ZIP.
 2. Run `BUILD-WINDOWS.cmd`.
 3. Wait for **BUILD COMPLETE**.
-4. Run `Playlist-Studio-5.1.exe` from the build kit folder.
+4. Run `Playlist-Studio-5.1.exe` from the build output.
 
-The kit creates its own `.venv-build` environment, installs the pinned dependencies, runs automated tests, generates assets, checks the application, downloads and verifies VLC, builds the EXE and packages the output ZIP.
+The kit creates an isolated `.venv-build` environment, installs pinned dependencies, runs automated tests, verifies the VLC download and packages the application. See [Build Kit instructions](docs/DOWNLOADS.md).
 
-### No Python Launcher?
+## Release Files and Integrity
 
-The Python Launcher is recommended but **not required**. Set `PS_PYTHON` to the full path of a compatible Python executable. Run the commands in the same Command Prompt window and adjust the paths to your computer:
+- [Playlist-Studio-5.1.exe](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5.1.exe) — portable Windows application.
+- [Playlist-Studio-5_1-Windows-Build-Kit-r2.zip](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5_1-Windows-Build-Kit-r2.zip) — Windows Build Kit.
+- [Official v5.1 release](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.1) — release notes and published asset digests.
 
-```cmd
-set "PS_PYTHON=C:\Program Files\Python313\python.exe"
-cd /d "D:\Software\Playlist-Studio-5_1-Windows-Build-Kit-r2"
-BUILD-WINDOWS.cmd --fresh
-```
+SHA-256 values published for the v5.1 assets:
 
-- `PS_PYTHON` applies only to that Command Prompt session.
-- `--fresh` recreates the build virtual environment.
-- If a step fails, inspect `BUILD-LOG.txt` beside the builder.
-- The Build Kit's `README.txt` explains the steps and log; `KNOWN-LIMITATIONS.md` documents known limitations.
-
----
-
-## 💻 System Requirements
-
-| Item | Details |
-|---|---|
-| Application platform | Windows 10 / 11 |
-| Architecture | x64 |
-| Application type | Portable single-file EXE |
-| Playlist formats | M3U / M3U8 |
-| EPG | XMLTV — URL and local XML/GZ/XZ/ZIP |
-| Playback | Built-in player with bundled VLC engine |
-| Python to run app | Not required |
-| Python to rebuild | 64-bit 3.10–3.13; 3.13 recommended |
-
----
-
-## 📦 Release Files
-
-- **[Playlist-Studio-5.1.exe](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5.1.exe)** — portable Windows application.
-- **[Playlist-Studio-5_1-Windows-Build-Kit-r2.zip](https://github.com/saeidrahmanbd/Playlist-Studio/releases/download/v5.1/Playlist-Studio-5_1-Windows-Build-Kit-r2.zip)** — Windows build kit.
-
-**[Visit the Playlist Studio project website](https://saeidrahmanbd.github.io/BDIX-IPTV/playlist-studio.html)** · **[View the official Playlist Studio v5.1 release](https://github.com/saeidrahmanbd/Playlist-Studio/releases/tag/v5.1)**
-
-### Verify your download
-
-GitHub publishes SHA-256 digests for both release assets. The published values are:
-
-| Asset | SHA-256 |
+| File | SHA-256 |
 |---|---|
 | `Playlist-Studio-5.1.exe` | `9ff254ce20124aba7b2802fa707c8f79df058b9760038ad72ec6cd5df1f0ada8` |
 | `Playlist-Studio-5_1-Windows-Build-Kit-r2.zip` | `b74cba0ff13481f626af9a82607b8cd9eb1a5b1da93bc5b620a1c027ce414dfa` |
 
-In PowerShell, calculate a local file hash with:
+Verify a local download in PowerShell:
 
 ```powershell
 Get-FileHash .\Playlist-Studio-5.1.exe -Algorithm SHA256
 Get-FileHash .\Playlist-Studio-5_1-Windows-Build-Kit-r2.zip -Algorithm SHA256
 ```
 
-Compare the result with the corresponding release asset digest. GitHub's published release-asset SHA-256 digest is the reference value. Recalculate the local hash after downloading and compare it with the digest shown on the official release page.
+Compare the local result with the corresponding digest published on the official release.
+
+## Related Projects
+
+- [BDIX-IPTV](https://github.com/saeidrahmanbd/BDIX-IPTV) — separate curated IPTV playlist and XMLTV EPG project.
+- [Playlist Studio product page](https://saeidrahmanbd.github.io/BDIX-IPTV/playlist-studio.html) — product overview and downloads.
+- [Saeid Rahman on GitHub](https://github.com/saeidrahmanbd) — profile and featured projects.
+
+Playlist Studio is independent of any particular playlist collection and can be used with other compatible M3U/M3U8 sources.
+
+## License and Responsible Use
+
+Original software, binaries, artwork, documentation and other project materials are proprietary unless a separate license is explicitly provided for a specific component. See [LICENSE](LICENSE).
+
+Use only playlists and IPTV services you are authorized to access and use.
 
 ---
 
-## 🔗 Related Project
-
-📺 **[BDIX-IPTV](https://github.com/saeidrahmanbd/BDIX-IPTV)** is a separate playlist project. Playlist Studio is a general-purpose application and can be used with other M3U/M3U8 playlists and compatible services.
-
-> Use only playlists and IPTV services you are authorized to access and use.
-
----
-
-<p align="center">
-  ⭐ <b>If Playlist Studio helps you, consider starring the repository.</b><br><br>
-  <sub>Made with ❤️ by <a href="https://github.com/saeidrahmanbd">Saeid Rahman</a></sub>
-</p>
+<p align="center">⭐ <b>If Playlist Studio is useful to you, consider starring this repository.</b><br><sub>Made with ❤️ by <a href="https://github.com/saeidrahmanbd">Saeid Rahman</a></sub></p>
